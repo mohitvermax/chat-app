@@ -75,7 +75,8 @@ const SignUp = () => {
                 </Link>
 
                 <div className="mt-6">
-                    <button type="submit" className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline">
+                    <button type="submit" disabled={loading}
+                    className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline">
                         SignUp
                     </button>
                 </div>
